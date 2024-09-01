@@ -1,1 +1,41 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "(./node_modules/css-loader/dist/cjs.js!./src/style.css)";
+
+body {
+  background: beige;
+}
+
+#frase {
+  font-size: 50px;
+  background: lightblue;
+  display: flex;
+  padding: 40px;
+  text-align: center;
+  margin-top: 10px;
+  justify-content: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 50%;
+}
+
+button {
+  font-size: 30px;
+  display: flex;
+  margin-left: 800px;
+  margin-top: 30px;
+  padding: 10px;
+  justify-content: center;
+}
+
+#geeks {
+  display: flex;
+  margin-top: 380px;
+}
+
+#top {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 50px;
+  margin-top: 200px;
+  font-family: cursive;
+}
